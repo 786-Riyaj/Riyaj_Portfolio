@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Tailwind v4 mein class-based dark mode ke liye */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    /* Ultra-Premium Luxury Dark Palette */
+    --color-luxury-black: #0F0F0F;
+    --color-gold-accent: #C2A878;
+    --color-dark-gray: #374151;
+    --color-soft-white: #E5E5E5;
+
+    /* Premium Editorial Light Palette */
+    --color-editorial-ivory: #FAF9F6;
+    --color-navy-text: #1F2937;
+    --color-rich-black: #111827;
+
+    /* Typography - Both Modes */
+    --font-serif: "Playfair Display", serif;
+    --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+    body {
+        margin: 0;
+        @apply transition-colors duration-700 font-sans bg-editorial-ivory text-navy-text dark:bg-luxury-black dark:text-soft-white;
+    }
+}
