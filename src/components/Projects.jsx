@@ -7,7 +7,7 @@ function Projects() {
             desc: "A full-stack web application connecting farmers and buyers for agricultural trading.Built with Java, Spring Boot, MySQL, and responsive frontend technologies.",
             link: "https://agritradehub-jc41.onrender.com",
             tag: "2025",
-            image: "src/assets/img/agritrade.png"
+            image: "src="/agritrade.png"
         },
         {
             title: "Cyber Trace",
@@ -15,7 +15,7 @@ function Projects() {
             desc: "A web-based cybersecurity monitoring system for managing and tracking cases.Developed using Java, Spring Boot, REST APIs, and MySQL.",
             link: "https://cybertrace-upuj.onrender.com",
             tag: "2025",
-            image: "src/assets/img/cyberTrace.jpg"
+            image: "/cyberTrace.jpg"
         },
         {
             title: "Vinegar-Web",
@@ -23,7 +23,7 @@ function Projects() {
             desc: "A minimal and user-friendly e-commerce platform showcasing organic vinegar products with a clean design and smooth navigation experience.",
             link: "https://786-riyaj.github.io/Vinegar-Web/",
             tag: "2025",
-            image: "src/assets/img/Vinegar-Web.png"
+            image: "/Vinegar-Web.png"
         },
         {
             title: "SimpleWeb Pages",
@@ -31,7 +31,7 @@ function Projects() {
             desc: "A minimal multi-page website with clean design, basic layout, and smooth navigation for an easy user experience.",
             tag: "2025",
             link: "https://786-riyaj.github.io/Web-Pages/",
-            image: "src/assets/img/Web-pages.png"
+            image: "/Web-pages.png"
         }
     ];
 
