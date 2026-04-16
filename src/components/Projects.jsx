@@ -7,7 +7,7 @@ function Projects() {
             desc: "A full-stack web application connecting farmers and buyers for agricultural trading.Built with Java, Spring Boot, MySQL, and responsive frontend technologies.",
             link: "https://agritradehub-jc41.onrender.com",
             tag: "2025",
-            image: "src="/agritrade.png"
+            image: "/agritrade.png"
         },
         {
             title: "Cyber Trace",
@@ -31,7 +31,7 @@ function Projects() {
             desc: "A minimal multi-page website with clean design, basic layout, and smooth navigation for an easy user experience.",
             tag: "2025",
             link: "https://786-riyaj.github.io/Web-Pages/",
-            image: "/Web-pages.png"
+            image: "/Web-Pages.png"
         }
     ];
 
