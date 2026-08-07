@@ -49,7 +49,7 @@ function Hero() {
 
                         {/* Resume Action */}
                         <button
-                            onClick={() => window.open('https://drive.google.com/file/d/17jUGaQGEBpckyayJdkhnBvUbxE5rW0HK/view?usp=drive_link', '_blank')}
+                            onClick={() => window.open('https://drive.google.com/file/d/1x_ALIqyMQW0HSfsUGYX4UEW-UD6rjOGV/view?usp=drivesdk', '_blank')}
                             className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-gold-accent transition-all text-[10px] tracking-[0.2em] uppercase opacity-60 hover:opacity-100 flex items-center gap-3 group"
                         >
                             View Resume
